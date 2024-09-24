@@ -9,7 +9,7 @@ const User = require('./model/User.model.js');
 // Load environment variables
 dotenv.config();
 
-const MONGO_URI = `mongodb+srv://${process.env.NODE_MONOGDB_USERNAME}:${process.env.NODE_MONOGDB_PASSWROD}@mern-db.88vnu.mongodb.net/mern-db?retryWrites=true&w=majority&appName=mern-db`
+const MONGO_URI = `mongodb+srv://divyanshubisht169:${process.env.NODE_MONOGDB_PASSWROD}@deployment-cluster.dzxqn.mongodb.net/mern-db ?retryWrites=true&w=majority&appName=deployment-cluster`
 
 const app = express();
 app.use(cors());
